@@ -29,3 +29,6 @@ while True:
 print("=========================")
 print("Total Units Processed: ", inventory)
 print("Number of failed entries: ", failed_entries)
+
+with open("Final inventory count.txt", "w") as file:
+    file.write(str(inventory))
