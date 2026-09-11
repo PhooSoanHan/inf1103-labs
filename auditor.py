@@ -15,3 +15,6 @@ while True:
         continue
 
     stock = int(stock)
+
+    inventory += stock
+    print("Total inventory: ", inventory)
