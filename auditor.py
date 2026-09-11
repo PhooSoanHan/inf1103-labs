@@ -5,3 +5,5 @@ while True:
 
     if stock.lower() == "quit":
         break
+
+    stock = int(stock)
