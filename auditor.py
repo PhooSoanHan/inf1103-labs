@@ -18,3 +18,7 @@ while True:
 
     inventory += stock
     print("Total inventory: ", inventory)
+
+    if inventory > 500:
+        print("The total inventory cannot exceed 500 units!")
+        break
